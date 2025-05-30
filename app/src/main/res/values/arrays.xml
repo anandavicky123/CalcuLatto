@@ -1,0 +1,166 @@
+<resources>
+
+    <string-array name="dimension23">
+        <item>2D</item>
+        <item>3D ᴾᴿᴱᴹᴵᵁᴹ</item>
+    </string-array>
+
+    <string-array name="main_temp">
+        <item>"°C"</item>
+        <item>"°F"</item>
+        <item>"K"</item>
+        <item>"°Ra"</item>
+        <item>"°Ré"</item>
+    </string-array>
+
+    <string-array name="main_force">
+        <item>"N"</item>
+        <item>"lbf"</item>
+    </string-array>
+
+    <string-array name="main_distance">
+        <item>m</item>
+        <item>km</item>
+        <item>ft</item>
+        <item>yd</item>
+        <item>mi</item>
+    </string-array>
+
+    <string-array name="main_energy">
+        <item>J</item>
+        <item>kJ</item>
+        <item>kWh</item>
+        <item>ft lb</item>
+        <item>kcal</item>
+        <item>eV</item>
+        <item>BTU</item>
+    </string-array>
+
+    <string-array name="main_speed">
+        <item>m/s</item>
+        <item>km/h</item>
+        <item>mph</item>
+        <item>ft/s</item>
+        <item>knots</item>
+    </string-array>
+
+    <string-array name="main_time">
+        <item>@string/seconds</item>
+        <item>@string/minutes</item>
+        <item>@string/hours</item>
+        <item>@string/days</item>
+    </string-array>
+
+    <string-array name="main_length">
+        <item>cm</item>
+        <item>in</item>
+        <item>m</item>
+        <item>ft</item>
+        <item>mm</item>
+        <item>ft/in</item>
+    </string-array>
+
+    <string-array name="main_weight">
+        <item>kg</item>
+        <item>lb</item>
+        <item>g</item>
+        <item>mg</item>
+        <item>oz</item>
+        <item>ton</item>
+        <item>US ton</item>
+        <item>UK ton</item>
+        <item>US stone</item>
+        <item>UK stone</item>
+    </string-array>
+
+    <string-array name="main_volume">
+        <item>liter</item>
+        <item>US gal</item>
+        <item>UK gal</item>
+        <item>m³</item>
+        <item>cm³</item>
+        <item>fl oz (US)</item>
+        <item>in³</item>
+        <item>ft³</item>
+    </string-array>
+
+    <string-array name="genders">
+        <item>@string/selectgender</item>
+        <item>@string/male</item>
+        <item>@string/female</item>
+    </string-array>
+
+    <string-array name="main_area">
+        <item>m\u00b2</item>
+        <item>ft\u00b2</item>
+        <item>yd\u00b2</item>
+        <item>a</item>
+        <item>ha</item>
+    </string-array>
+
+    <string-array name="main_pressure">
+        <item>Pa</item>
+        <item>psi</item>
+        <item>inHg</item>
+        <item>mmHg</item>
+        <item>mmHg</item>
+        <item>bar</item>
+    </string-array>
+
+    <string-array name="acceleration_units">
+        <item>m/s²</item>
+        <item>g</item>
+        <item>ft/s²</item>
+    </string-array>
+
+    <string-array name="power" translatable="false">
+        <item>W</item>
+        <item>kW</item>
+        <item>MW</item>
+        <item>GW</item>
+        <item>BTU/h</item>
+    </string-array>
+
+    <string-array name="concentration" translatable="false">
+        <item>g/dL</item>
+        <item>g/L</item>
+        <item>mg/dL</item>
+        <item>mmol/L</item>
+        <item>µmol/L</item>
+        <item>µg/dL</item>
+    </string-array>
+
+    <string-array name="density" translatable="false">
+        <item>kg/m³</item>
+        <item>g/cm³</item>
+        <item>slugs/ft³</item>
+        <item>lbm/ft³</item>
+    </string-array>
+
+    <string-array name="longbasic_main" translatable="false">
+        <item>@string/arithmetic</item>
+        <item>@string/trigonometry</item>
+        <item>@string/combinationpremium</item>
+    </string-array>
+
+    <string-array name="longbasic_operator" translatable="false">
+        <item>@string/addition</item>
+        <item>@string/subtraction</item>
+        <item>@string/multiply</item>
+        <item>@string/divide</item>
+    </string-array>
+
+    <string-array name="longbasic_trigonometries" translatable="false">
+        <item>sin</item>
+        <item>cos</item>
+        <item>tan</item>
+        <item>sin⁻¹</item>
+        <item>cos⁻¹</item>
+        <item>tan⁻¹</item>
+        <item>log</item>
+        <item>log2</item>
+        <item>log10</item>
+        <item>√</item>
+    </string-array>
+
+</resources>

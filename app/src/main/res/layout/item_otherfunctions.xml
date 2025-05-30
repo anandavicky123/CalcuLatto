@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="70dp"
+    android:background="@drawable/customborder"
+    android:layout_height="50dp"
+    android:layout_margin="5dp">
+
+    <TextView
+        android:id="@+id/functions_item"
+        style="@style/blackandwhitetext"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:autoSizeMaxTextSize="30sp"
+        app:autoSizeMinTextSize="10sp"
+        android:gravity="center"
+        app:autoSizeStepGranularity="0.5sp"
+        app:autoSizeTextType="uniform" />
+</LinearLayout>

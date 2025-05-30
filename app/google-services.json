@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1078943967624",
+    "project_id": "calculatto-2023",
+    "storage_bucket": "calculatto-2023.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1078943967624:android:657f3a1dcad742a24c323d",
+        "android_client_info": {
+          "package_name": "com.softgasm.calculatto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1078943967624-h38qgseb8erkof9sv9q92q3l714qqcnh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.softgasm.calculatto",
+            "certificate_hash": "be2dee63d1d0c08ea2f8210820b84f4301eadf88"
+          }
+        },
+        {
+          "client_id": "1078943967624-oclpqavr0o60hkmf4rp82imj4efl39fe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.softgasm.calculatto",
+            "certificate_hash": "3addfe528ddcf55386a312125d25ec5edb9a33fe"
+          }
+        },
+        {
+          "client_id": "1078943967624-7e9fg3g0b8ic4jqnqennanqjhvfbii42.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChgtEVRQeDcZbmGsQcY2HgSDQ4VpGUxWE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1078943967624-7e9fg3g0b8ic4jqnqennanqjhvfbii42.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.softgasm.calculatto.basic"
+        tools:layout="@layout/fragment_basic">
+        <action
+            android:id="@+id/home_gen"
+            app:destination="@id/general" />
+        <action
+            android:id="@+id/home_adv"
+            app:destination="@id/advanced" />
+        <action
+            android:id="@+id/home_abt"
+            app:destination="@id/about" />
+        <action
+            android:id="@+id/home_set"
+            app:destination="@id/settings" />
+        <action
+            android:id="@+id/home_favor"
+            app:destination="@id/manageFavorites" />
+        <action
+            android:id="@+id/action_nav_home_to_unitCategoryActivity"
+            app:destination="@id/nav_unit" />
+        <action
+            android:id="@+id/nav_health"
+            app:destination="@id/health" />
+        <action
+            android:id="@+id/nav_geometry"
+            app:destination="@id/geometry" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_unit"
+        android:name="com.softgasm.calculatto.unitconverter"
+        tools:layout="@layout/fragment_unitconverter"/>
+    <fragment
+        android:id="@+id/advanced"
+        android:name="com.softgasm.calculatto.advanced"
+        tools:layout="@layout/fragment_advanced"/>
+    <fragment
+        android:id="@+id/general"
+        android:name="com.softgasm.calculatto.general"
+        tools:layout="@layout/fragment_general">
+        <action
+            android:id="@+id/action_general_to_date_calculation"
+            app:destination="@id/date_calculation" />
+        <action
+            android:id="@+id/action_general_to_numeral_systems"
+            app:destination="@id/numeral_systems" />
+        <action
+            android:id="@+id/action_general_to_matrix"
+            app:destination="@id/matrix" />
+    </fragment>
+    <fragment
+        android:id="@+id/about"
+        android:name="com.softgasm.calculatto.about"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/settings"
+        android:name="com.softgasm.calculatto.settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/manageFavorites"
+        android:name="com.softgasm.calculatto.ManageFavorites"
+        tools:layout="@layout/fragment_manage_favorites" />
+    <fragment
+        android:id="@+id/health"
+        android:name="com.softgasm.calculatto.health"
+        tools:layout="@layout/fragment_health">
+        <action
+            android:id="@+id/action_health_to_health_metabolicrates"
+            app:destination="@id/health_metabolicrates" />
+    </fragment>
+    <fragment
+        android:id="@+id/date_calculation"
+        android:name="com.softgasm.calculatto.contents.independents.ui_date_calc"
+        tools:layout="@layout/fragment_ui_date_calc" />
+    <fragment
+        android:id="@+id/numeral_systems"
+        android:name="com.softgasm.calculatto.contents.independents.numeral_systems"
+        tools:layout="@layout/fragment_numeral_systems" />
+    <fragment
+        android:id="@+id/health_metabolicrates"
+        android:name="com.softgasm.calculatto.contents.independents.health_metabolicrates"
+        tools:layout="@layout/fragment_metabolicrates" />
+    <fragment
+        android:id="@+id/thefragments"
+        android:name="com.softgasm.calculatto.ui.thefragments"
+        tools:layout="@layout/fragment_thefragments" />
+    <fragment
+        android:id="@+id/thefragments_ws"
+        android:name="com.softgasm.calculatto.ui.thefragments_ws"
+        tools:layout="@layout/fragment_thefragments_ws" />
+    <fragment
+        android:id="@+id/geometry"
+        android:name="com.softgasm.calculatto.geometry"
+        tools:layout="@layout/fragment_geometry">
+        <action
+            android:id="@+id/action_geometry_to_thefragments_geometry"
+            app:destination="@id/thefragments_geometry" />
+    </fragment>
+    <fragment
+        android:id="@+id/thefragments_arrays"
+        android:name="com.softgasm.calculatto.ui.thefragments_arrays"
+        tools:layout="@layout/fragment_thefragments_arrays" />
+    <fragment
+        android:id="@+id/thefragments_geometry"
+        android:name="com.softgasm.calculatto.ui.thefragments_geometry"
+        tools:layout="@layout/fragment_thefragments_geometry" />
+    <fragment
+        android:id="@+id/matrix"
+        android:name="com.softgasm.calculatto.contents.independents.matrix"
+        tools:layout="@layout/fragment_matrix" />
+    <fragment
+        android:id="@+id/vector"
+        android:name="com.softgasm.calculatto.contents.independents.vector"
+        tools:layout="@layout/fragment_vector" />
+    <fragment
+        android:id="@+id/premium"
+        android:name="com.softgasm.calculatto.premium"
+        tools:layout="@layout/fragment_premium" />
+    <fragment
+        android:id="@+id/longbasic"
+        android:name="com.softgasm.calculatto.contents.independents.longbasic"
+        tools:layout="@layout/fragment_longbasic" />
+    <fragment
+        android:id="@+id/timezone"
+        android:name="com.softgasm.calculatto.contents.independents.timezone"
+        tools:layout="@layout/fragment_timezone" />
+    <fragment
+        android:id="@+id/unitconverter_child"
+        android:name="com.softgasm.calculatto.ui.unitconverter_child"
+        tools:layout="@layout/fragment_thefragments_unitconverter"/>
+
+</navigation>

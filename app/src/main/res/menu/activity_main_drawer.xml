@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <item android:title="@string/all_calculations">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_home"
+                    android:icon="@drawable/item_basic"
+                    android:title="@string/basic"
+                    />
+
+                <item
+                    android:id="@+id/general"
+                    android:icon="@drawable/item_general"
+                    android:title="@string/generals" />
+
+                <item
+                    android:id="@+id/nav_unit"
+                    android:icon="@drawable/item_convert"
+                    android:title="@string/unitconverter" />
+
+                <item
+                    android:id="@+id/geometry"
+                    android:icon="@drawable/geometry"
+                    android:title="@string/geometry" />
+
+                <item
+                    android:id="@+id/health"
+                    android:icon="@drawable/item_health"
+                    android:title="@string/health" />
+
+                <item
+                    android:id="@+id/advanced"
+                    android:icon="@drawable/item_advanced"
+                    android:title="@string/advanced_calculations" />
+            </group>
+        </menu>
+    </item>
+
+
+
+    <item android:title="@string/others">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/premium"
+                    android:icon="@drawable/premium"
+                    android:title="@string/getpremium"
+                    />
+                <item
+                    android:id="@+id/settings"
+                    android:icon="@drawable/settings"
+                    android:title="@string/action_settings" />
+                <item
+                    android:id="@+id/about"
+                    android:icon="@drawable/about"
+                    android:title="@string/about" />
+            </group>
+        </menu>
+    </item>
+
+
+</menu>

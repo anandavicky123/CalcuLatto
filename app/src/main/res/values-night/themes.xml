@@ -1,0 +1,71 @@
+<resources>
+
+    <style name="Theme.CalcuLatto" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">#4F4F4F</item>
+        <item name="colorPrimaryVariant">#4F4F4F</item>
+        <item name="colorOnPrimary">@color/yellow</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/white</item>
+        <item name="colorSecondaryVariant">#4F4F4F</item>
+        <item name="colorOnSecondary">@color/yellow</item>
+        <!-- Customize your theme here. -->
+        <item name="android:editTextBackground">@color/drkgray3</item>
+        <item name="android:editTextColor">@color/yellow</item>
+    </style>
+
+
+    <style name="Theme.AppSplash" parent="Theme.SplashScreen">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="windowSplashScreenBackground">@color/black</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher_foreground</item>
+        <item name="windowSplashScreenAnimationDuration">300</item>
+        <item name="postSplashScreenTheme">@style/Theme.CalcuLatto</item>
+        <item name="android:statusBarColor" >@color/black</item>
+        <item name="android:navigationBarColor">@color/black</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="numberpad" parent="Theme.AppCompat">
+        <item name="android:textColor">@color/yellow</item>
+        <item name="android:backgroundTint">@color/drkgray3</item>
+    </style>
+
+    <style name="numberpad_edges" parent="Theme.AppCompat">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:backgroundTint">@color/drkgray3</item>
+    </style>
+
+    <style name="numberpad_clear" parent="Theme.AppCompat">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:backgroundTint">@color/drkgray3</item>
+    </style>
+
+    <style name="navigationheader" parent="Theme.AppCompat">
+        <item name="android:textColor">@color/yellow</item>
+    </style>
+
+    <style name="blackandwhitetext" parent="Theme.AppCompat">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+
+    <style name="numberpad_functions" parent="Theme.AppCompat">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:backgroundTint">@color/drkgray3</item>
+    </style>
+
+
+
+    <style name="whiteandgreybackground" parent="Theme.AppCompat">
+        <item name="android:background">@color/drkgray3</item>
+    </style>
+
+    <style name="whiteandblackbackground" parent="Theme.AppCompat">
+        <item name="android:background">@color/black</item>
+    </style>
+
+
+</resources>

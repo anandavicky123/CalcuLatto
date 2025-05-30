@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/blackandwhitetext"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    app:autoSizeMaxTextSize="17.5sp"
+    app:autoSizeMinTextSize="15sp"
+    app:autoSizeStepGranularity="0.2sp"
+    app:autoSizeTextType="uniform" />

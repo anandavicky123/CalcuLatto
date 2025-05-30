@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/v_scrollview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    tools:context=".contents.independents.vector">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dimension" />
+
+        <Spinner
+            android:id="@+id/v_dimension"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:entries="@array/dimension23" />
+
+        <Spinner
+            android:id="@+id/v_condition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/v_vector1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vector 1" />
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/afqefasf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="X">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/v_x1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberSigned|numberDecimal" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/scasc2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Y">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/v_y1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberSigned|numberDecimal" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/vz1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Z">
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/v_z1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberSigned|numberDecimal" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <TextView
+            android:id="@+id/v_vector2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vector 2" />
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/sdgwsdv3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="X">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/v_x2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberSigned|numberDecimal" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/dcefdszvds"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Y">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/v_y2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberSigned|numberDecimal" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/vz2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Z">
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/v_z2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/dcefdszvds"
+                android:ems="10"
+                android:inputType="numberSigned|numberDecimal" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/v_calculate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:drawableTop="@drawable/calculator"
+            android:gravity="center"
+            android:text="@string/calculate" />
+
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/results" />
+
+        <TextView
+            android:id="@+id/v_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:background="@drawable/customborder4"
+            style="@style/blackandwhitetext"
+            android:textIsSelectable="true"
+            android:textSize="20sp" />
+    </LinearLayout>
+</ScrollView>

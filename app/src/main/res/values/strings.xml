@@ -1,0 +1,889 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="app_name" translatable="false">CalcuLatto</string>
+    <string name="action_settings" translatable="false">Settings</string>
+
+    <!-- IMPORT FROM ANOTHER APPS -->
+    <string name="info">Info</string>
+    <string name="item_info_title" translatable="false">[Section Item Info]</string>
+    <string name="pos_in_section" translatable="false">Position in section:</string>
+    <string name="pos_in_adapter" translatable="false">Position in adapter:</string>
+    <string name="view_type" translatable="false">View type:</string>
+    <string name="has_header" translatable="false">Has header?</string>
+    <string name="has_footer" translatable="false">Has footer?</string>
+    <string name="header_pos" translatable="false">"Header position:</string>
+    <string name="footer_pos" translatable="false">"Footer position:</string>
+    <string name="section_info_title" translatable="false">[Section Info]</string>
+    <string name="close">Close</string>
+    <!-- IMPORT FROM ANOTHER APPS -->
+
+    <string name="generals">General Calculations</string>
+    <string name="basic">Basic</string>
+    <string name="advanced_calculations">Advanced Calculations</string>
+    <string name="about">About</string>
+    <string name="all_calculations">All Calculations</string>
+    <string name="dari">Developed by:</string>
+    <string name="firstdateinfo">Created since: 5th January 2023</string>
+
+    <string name="speed">Speed</string>
+    <string name="length">Length</string>
+    <string name="area">Area</string>
+    <string name="date">Date</string>
+    <string name="mass">Mass</string>
+    <string name="health">Health</string>
+    <string name="numeral_systems">Numeral Systems</string>
+    <string name="temperature">Temperature</string>
+    <string name="volume">Volume</string>
+    <string name="other_calculations">Other Calculations</string>
+    <string name="probability">Probability</string>
+    <string name="unitconverter">Unit Converter</string>
+    <string name="weight">Weight</string>
+    <string name="power">Power</string>
+    <string name="energy">Energy</string>
+    <string name="velocity">Velocity</string>
+    <string name="time">Time</string>
+    <string name="otherformulas" translatable="false">ƒ</string>
+    <string name="formulas">Formulas</string>
+    <string name="cancel">Cancel</string>
+    <string name="privacypolicy">Privacy Policy</string>
+
+
+    <string name="calculate">Calculate</string>
+    <string name="height">Height</string>
+    <string name="value">Value</string>
+    <string name="age">Age</string>
+    <string name="birthdate">Birthdate</string>
+    <string name="startdate">Start Date</string>
+    <string name="remainingdays">Your birthday is in </string>
+    <string name="selectdate">Select the date</string>
+    <string name="days">days</string>
+    <string name="dayands">day(s)</string>
+    <string name="hours">hours</string>
+    <string name="years">years</string>
+    <string name="monthss">months</string>
+    <string name="weeks">weeks</string>
+    <string name="minutes">minutes</string>
+    <string name="seconds">seconds</string>
+    <string name="angle">Angle</string>
+    <string name="others">Others</string>
+    <string name="result">Result:</string>
+    <string name="common">Common</string>
+    <string name="trigonometry">Trigonometry</string>
+
+    <string name="version_history" translatable="false">
+— 1.0.1 —\n
+1. Fixed bugs\n\n
+— 1.0.2 —\n
+1. Fixed bugs\n\n
+— 1.0.5 —\n
+1. Adding new calculations\n
+2. Basic calculator expansion\n
+3. Obfuscation\n
+4. Fixex bugs\n\n
+— 1.10 —\n
+1. Adding new calculations\n
+2. Fixex bugs\n\n
+— 2.0 —\n
+1. Adding new calculations\n
+2. Availability to Android for Desktop (Chrome OS)\n\n
+— 2.1 —\n
+1. Adding new calculations\n
+2. Optimized performance\n
+3. Splash\n
+4. Fixed bugs\n\n
+— 3.0 —\n
+1. New design\n
+2. Adding new calculations\n
+3. Adding units of angle\n
+4. Supporting night mode\n
+5. Fixed bugs\n\n
+— 3.8 —\n
+1. Adding new calculations\n\n
+— 4.0 —\n
+1. Adding new language: Indonesian\n
+2. Adding new calculations\n
+3. Fixed bugs\n\n
+— 4.5 —\n
+1. Adding new calculations\n\n
+— 5.0 —\n
+1. New design\n
+2. Adding new calculations\n
+3. Improve Performance\n
+4. Fixed bugs\n\n
+— 5.25 —\n
+1. Adding new feature: "Premium"\n
+2. Fixed bugs\n\n
+— 5.50 —\n
+1. Fixed bugs\n\n
+— 5.50.5 —\n
+1. Fixed bugs\n\n
+— 6.0 —\n
+1. New design\n
+2. Adding new feature: Number to Words\n
+3. Adding new calculations\n
+4. Optimize performance &amp; fixed bugs\n\n
+— 6.3 —\n
+1. Optimize performance &amp; fixed bugs\n
+2. Minor changes\n\n
+— 6.3.3 —\n
+1. Fixed a bug &amp; minor changes\n\n
+— 6.5 —\n
+1. Minor changes\n\n
+— 6.5.1 —\n
+1. Reduce the frequency of showing ads in free version\n\n
+— 6.5.1.2 —\n
+1. Fixed bugs\n\n
+— 6.8 —\n
+1. Fixed bugs\n\n
+— 7.0 —\n
+1. More trigonometry functions\n
+2. Expanded some calculations\n
+3. Adding new Unit Conversions\n
+4. Adding new calculations\n
+5. Fixed bugs &amp; optimized performance\n\n
+— 7.2 —\n
+1. Fixed a minor bug\n\n
+— 8.0 —\n
+1. New design\n
+2. Adding new calculations\n
+3. Fixed bugs\n
+4. Adding new Unit Conversions\n
+5. Optimized performance\n\n
+— 8.1 —\n
+1. Fixed bugs\n
+2. Change the premium from monthly subscription to one-time purchase\n\n
+— 8.21 —\n
+1. Updated libraries and system requirements for the newest Android version.\n\n
+— 8.22 —\n
+1. Fixed bugs\n\n
+    </string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="selectone_numerals">Select one of the numeral systems to get the results</string>
+    <string name="kinematicsdynamicsstatics">Kinematics, Dynamics, Statics</string>
+    <string name="momentum">Momentum</string>
+    <string name="bsa">Body Surface Area</string>
+    <string name="sedentary">Little to no exercise</string>
+    <string name="lightexercise">Light exercise 20 minutes 1 to 3 times/week</string>
+    <string name="moderateexercise">Moderate exercise for at least 30 to 60 minutes 3 to 4 times/week</string>
+    <string name="tdee">Total Daily Energy Expenditure</string>
+    <string name="heavyexercise">Heavy exercise for 60 minutes or greater 5 to 7 days/week</string>
+    <string name="extremeexercise">Extreme (athlete-like) exercises</string>
+    <string name="waistratio">Waist Ratio</string>
+    <string name="waistcircumference">Waist circumference</string>
+    <string name="hipcircumference">Hip circumference</string>
+    <string name="waisttoheight">Waist to height ratio: </string>
+    <string name="waisttohip">Waist to hip ratio: </string>
+    <string name="yourhealthrisk">Your health risk: </string>
+    <string name="selectgender">Select your gender</string>
+    <string name="low">Low</string>
+    <string name="medium">Medium</string>
+    <string name="high">High</string>
+    <string name="lowbp">Low Blood Pressure</string>
+    <string name="idealbp">Ideal Blood Pressure</string>
+    <string name="invalid">Invalid</string>
+    <string name="bprule">Blood pressure measurement based on AHA and ACC</string>
+    <string name="bloodpressure">Blood Pressure</string>
+    <string name="highbp1">High blood pressure (Hypertension) Stage 1</string>
+    <string name="highbp2">High blood pressure (Hypertension) Stage 2</string>
+    <string name="cardiac_index">Cardiac Index</string>
+    <string name="strokevolume">Stroke volume</string>
+    <string name="ci_heartrate">Heart rate</string>
+    <string name="cardiac_output">Cardiac output</string>
+    <string name="normal">normal</string>
+    <string name="abnormal">abnormal</string>
+    <string name="albumin_hint">Albumin</string>
+    <string name="serumcalcium">Serum calcium</string>
+    <string name="calciumcorrection">Calcium Correction</string>
+    <string name="lean_bm">Lean Body Mass</string>
+    <string name="bmr_k_m" translatable="false">BMR (Katch-McArdle)</string>
+    <string name="neckcircum">Neck circumference</string>
+    <string name="bodyfat">Body fat</string>
+    <string name="ffmi" translatable="false">FFMI</string>
+    <string name="nffmi">Normalized FFMI</string>
+    <string name="ffm">Fat-free mass</string>
+    <string name="tbf">Total body fat</string>
+    <string name="widelyused">(widely used)</string>
+    <string name="day">day</string>
+    <string name="molality">Molality</string>
+    <string name="molessolute">Moles of solute</string>
+    <string name="masssolvent">Mass of solvent</string>
+    <string name="chemistry">Chemistry</string>
+    <string name="molarmass">Molar mass</string>
+    <string name="concentration">Concentration</string>
+    <string name="enddate">End Date</string>
+    <string name="fabricwidth">Fabric width</string>
+    <string name="piecewidth">Piece width</string>
+    <string name="piecelength">Piece length</string>
+    <string name="numberofpieces">Number of pieces</string>
+    <string name="lengthofmaterialyouwillneed">Length of material you will need</string>
+    <string name="rows_down">rows down</string>
+    <string name="piecesacross">pieces across</string>
+    <string name="relativity">Relativity</string>
+    <string name="einsteintheory">Einstein\'s Theory</string>
+    <string name="percentagepercentage">Percentage (%)</string>
+    <string name="speedofobject">Speed of object</string>
+    <string name="speedofsound">Speed of sound</string>
+    <string name="frictioncoefficient">Friction coefficient</string>
+    <string name="normalforce">Normal force</string>
+    <string name="force">Force</string>
+    <string name="bodyshape">Body Shape</string>
+    <string name="bloodcirculation">Blood Circulation</string>
+    <string name="romannumeral">Roman Numeral</string>
+    <string name="geometry">Geometry</string>
+    <string name="twoD" translatable="false">2D</string>
+    <string name="threeD" translatable="false">3D</string>
+    <string name="rfmass">Relative Fat Mass</string>
+    <string name="bf_ffmi"><![CDATA[Body Fat & Fat-Free Mass Index]]></string>
+    <string name="molarity">Molarity</string>
+    <string name="fabric">Fabric</string>
+    <string name="lorentzfactor">Lorentz Factor</string>
+    <string name="machnumber">Mach Number</string>
+    <string name="friction">Friction</string>
+    <string name="pressure">Pressure</string>
+    <string name="median">Median</string>
+    <string name="degree">Degree</string>
+    <string name="radian">Radian</string>
+    <string name="gradian">Gradian</string>
+    <string name="angleturn">Turn</string>
+    <string name="add">Add</string>
+    <string name="reset">Reset</string>
+    <string name="listofnumbers">List of numbers</string>
+    <string name="radius">Radius</string>
+    <string name="diameter">Diameter</string>
+    <string name="circumference">Circumference</string>
+    <string name="perimeter">Perimeter</string>
+    <string name="yradius">Y radius</string>
+    <string name="xradius">X radius</string>
+    <string name="base">Base</string>
+    <string name="ylength">Y length</string>
+    <string name="xlength">X length</string>
+    <string name="toplength">Top length</string>
+    <string name="baselength">Base length</string>
+    <string name="leftandright">Left and right</string>
+    <string name="leftlength">Left length</string>
+    <string name="rightlength">Right length</string>
+    <string name="leftangle">Left angle</string>
+    <string name="rightangle">Right angle</string>
+    <string name="heightleft">Height left</string>
+    <string name="heightright">Height right</string>
+    <string name="lengthbase">Base length</string>
+    <string name="centerangle">Center angle</string>
+    <string name="side">Side</string>
+    <string name="zradius">Z radius</string>
+    <string name="topradius">Top radius</string>
+    <string name="baseradius">Base radius</string>
+    <string name="totalarea">Total area</string>
+    <string name="lateralarea">Lateral area</string>
+    <string name="surfacearea">Surface area</string>
+    <string name="volumediagonal">Volume diagonal</string>
+    <string name="lateralsurface">Lateral surface</string>
+    <string name="slantlength">Slant length</string>
+    <string name="openingangle_degree">Opening angle (degree)</string>
+    <string name="baseangle_degree">Base angle (degree)</string>
+    <string name="width">Width</string>
+    <string name="momentumdesc">Momentum is the product of the mass and velocity of an object.\n\n(Note: this calculation is for one dimension)</string>
+    <string name="edgelength">Edge length</string>
+    <string name="side_a">Side A</string>
+    <string name="side_b">Side B</string>
+    <string name="hypotenuse">Hypotenuse</string>
+    <string name="angle_a">Angle A</string>
+    <string name="angle_b">Angle B</string>
+    <string name="mass_and_force">Mass and force</string>
+    <string name="speeddifference">Speed difference</string>
+    <string name="distance">Distance</string>
+    <string name="initialspeed">Initial speed</string>
+    <string name="finalspeed">Final speed</string>
+    <string name="netforce">Net force</string>
+    <string name="rectangle">Rectangle</string>
+    <string name="circle">Circle</string>
+    <string name="cube">Cube</string>
+    <string name="prism">Prism</string>
+    <string name="triangle">Triangle</string>
+    <string name="square">Square</string>
+    <string name="pentagon">Pentagon</string>
+    <string name="hexagon">Hexagon</string>
+    <string name="ellipse">Ellipse</string>
+    <string name="rtriangle">Right Triangle</string>
+    <string name="circlearc">Circle Arc</string>
+    <string name="rhombus">Rhombus</string>
+    <string name="trapezoid">Trapezoid</string>
+    <string name="pyramid">Pyramid</string>
+    <string name="pfrustum">Pyramid Frustum</string>
+    <string name="cone">Cone</string>
+    <string name="cfrustum">Cone Frustum</string>
+    <string name="cylinder">Cylinder</string>
+    <string name="sphere">Sphere</string>
+    <string name="scap">Spherical Cap</string>
+    <string name="sseg">Spherical Segment</string>
+    <string name="ellipsoid">Ellipsoid</string>
+    <string name="acceleration">Acceleration</string>
+    <string name="displacement">Displacement</string>
+    <string name="initialvelocity">Initial velocity</string>
+    <string name="finalvelocity">Final velocity</string>
+    <string name="constantvelocity">Constant velocity</string>
+    <string name="averagevelocity">Average velocity</string>
+    <string name="chancesofsuccess">Chances of success</string>
+    <string name="chancesoflose">Chances of lose</string>
+    <string name="probabilityofwinning">Probability of winning (%)</string>
+    <string name="probabilityoflosing">Probability of losing (%)</string>
+    <string name="fraction">Fraction</string>
+    <string name="basic_calculations">Basic Calculations</string>
+    <string name="algebra">Algebra</string>
+    <string name="decimal">Decimal</string>
+    <string name="simplifiedfraction">Simplified fraction</string>
+    <string name="dividenty">Dividend (x)</string>
+    <string name="divisorx">Divisor (y)</string>
+    <string name="remainderr">Remainder (r)</string>
+    <string name="gcf">Greatest common factor</string>
+    <string name="lcm">Least common multiple</string>
+    <string name="mean">Mean</string>
+    <string name="modestatistic">Mode</string>
+    <string name="results">Results</string>
+    <string name="cnp">Combination and Permutation</string>
+    <string name="totalnumbersofobjects">Total numbers of objects</string>
+    <string name="samplesize">Sample size</string>
+    <string name="combination">Combination</string>
+    <string name="twoevents">Two events</string>
+    <string name="threeevents">Three events</string>
+    <string name="number">Number</string>
+    <string name="radicaldegree">Radical degree</string>
+    <string name="grammaris">is</string>
+    <string name="primenumber">prime number</string>
+    <string name="evennumber">even number</string>
+    <string name="oddnumber">odd number</string>
+    <string name="bothevenprime">even and prime number</string>
+    <string name="slopeinterceptequation">Slope-intercept equation</string>
+    <string name="generalequation">General equation</string>
+    <string name="simplify">Simplify</string>
+    <string name="enlarge">Enlarge</string>
+    <string name="reduce">Reduce</string>
+    <string name="to">to</string>
+    <string name="hour">Hour</string>
+    <string name="minute">Minute</string>
+    <string name="permutation">Permutation</string>
+    <string name="combinationr">Combination with repetition</string>
+    <string name="permutationr">Permutation with repetition</string>
+    <string name="exact">Exact</string>
+    <string name="atleast">At least</string>
+    <string name="atmost">At most</string>
+    <string name="numberofflips">Number of flips</string>
+    <string name="heads">Heads / Tails</string>
+    <string name="percentage">Percentage</string>
+    <string name="diceface">Dice face</string>
+    <string name="totaldices">Total dices</string>
+    <string name="targetvalue">Target value</string>
+    <string name="diceone">All dice with the same value</string>
+    <string name="dicetwo">All dice values equal or higher than</string>
+    <string name="dicethree">All dice values equal or less than</string>
+    <string name="dicefour">The sum from all dice equals to</string>
+    <string name="instructions">Instructions</string>
+    <string name="resetall">Reset all</string>
+    <string name="matrix_a">Matrix A</string>
+    <string name="matrix_b">Matrix B</string>
+    <string name="matrixerrornumberformat">Oops! An error. Did you put something that not a number or accepted oeprators?</string>
+    <string name="matrixerrornull">Sorry, we still don\'t support incomplete matrices. You must make a matrix with same column length</string>
+    <string name="disclaimer">DISCLAIMER: Softgasm makes no warranty and expressly disclaims all warranties as to the accuracy or reliability or suitability of any calculation results or information provided through its products. Softgasm is not also responsible for any damages, direct or indirect, which may occur by the calculation results or information provided through the products.</string>
+    <string name="veryseverelyunderiweight">Very severely underweight</string>
+    <string name="severelyunderweight">Severely underweight</string>
+    <string name="underweight">Underweight</string>
+    <string name="normal2">Normal</string>
+    <string name="overweight">Overweight</string>
+    <string name="obese1">Obese Class 1 - Moderately Obese</string>
+    <string name="obese2">Obese Class 2 - Severely Obese</string>
+    <string name="obese3">Obese Class 3 - Very Severely Obese</string>
+    <string name="bmi">Body Mass Index</string>
+    <string name="beat">beat</string>
+    <string name="minute_small">minute</string>
+    <string name="oneD" translatable="false">1D</string>
+    <string name="numberofturns">Number of turns</string>
+    <string name="slope">Slope</string>
+    <string name="curvature">Curvature</string>
+    <string name="torsion">Torsion</string>
+    <string name="arclength">Arc length</string>
+    <string name="numberofiterations">Number of iterations</string>
+    <string name="originallinelength">Original line length</string>
+    <string name="majorradius">Major radius</string>
+    <string name="minorradius">Minor radius</string>
+    <string name="torusdesc">A torus is a surface of revolution generated by revolving a circle in three-dimensional space one full revolution about an axis that is coplanar with the circle. \n\nThe \"major radius\" is the distance of the center of the tube to the center of the whole object.</string>
+    <string name="holeradius">Hole radius</string>
+    <string name="breadth">Breadth</string>
+    <string name="parameter">Parameter</string>
+    <string name="lowerpart">Lower part</string>
+    <string name="upperpart">Upper part</string>
+    <string name="section">Section</string>
+    <string name="percentagedesc">A percentage is a number or ratio expressed as a fraction of 100</string>
+    <string name="romannumeraldesc">Roman numerals are a numeral system that originated in ancient Rome and remained the usual way of writing numbers throughout Europe well into the Late Middle Ages</string>
+    <string name="modulodesc">Modulo is a system of arithmetic for integers, where numbers \"wrap around\" when reaching a certain value, called the modulus</string>
+    <string name="radicaldesc">Radical is an unresolved root, especially one using the radical symbol</string>
+    <string name="poedesc">Prime number is a number greater than 1 that is not a product of two smaller natural numbers.\nEven numbers are those numbers that are completely divisible by 2.\nOdd number is a number that is not divisible by 2.\n</string>
+    <string name="ledesc">A linear equation is an algebraic equation of the form y=mx+b</string>
+    <string name="ratiodesc">A ratio shows how many times one number contains another</string>
+    <string name="clockangledesc">Clock angle problems are a type of mathematical problem which involve finding the angle between the hands of an analog clock</string>
+    <string name="statistics">Statistics</string>
+    <string name="probdesc">Probability of an event is a number that indicates how likely the event is to occur</string>
+    <string name="fracdesc">A fraction represents a part of a whole or, more generally, any number of equal parts</string>
+    <string name="cnpdesc">Combination and permutation are two different ways of grouping elements of a set into subsets. In a combination, the elements of the subset can be listed in any order. In a permutation, the elements of the subset are listed in a specific order.</string>
+    <string name="coinprobdesc">Coin flipping or coin tossing is the practice of throwing a coin in the air and checking which side is showing when it lands, in order to choose between two alternatives, heads or tails, sometimes used to resolve a dispute between two parties</string>
+    <string name="dicedesc">Dice are thrown to provide random numbers</string>
+    <string name="bcdesc">Binomial Coefficients are the positive integers that occur as coefficients in the binomial theorem</string>
+    <string name="gfdesc">Gamma function is a generalization of the factorial function to non-integer numbers</string>
+    <string name="fabricdesc">Fabric is material produced by weaving together cotton, nylon, wool, silk, or other threads</string>
+    <string name="bmidesc">Body mass index is a value derived from the mass and height of a person. It is used to screen for weight categories that may lead to health problems</string>
+    <string name="bsadesc">Body Surface Area is the measured or calculated surface area of a human body</string>
+    <string name="wrdesc">Waist Ratio is the dimensionless ratio of the circumference of the waist and has been used as an indicator or measure of health, fertility, and the risk of developing serious health conditions</string>
+    <string name="cardiacindexdesc">Cardiac Index is a haemodynamic parameter that relates the cardiac output from left ventricle in one minute to body surface area, thus relating heart performance to the size of the individual</string>
+    <string name="lbmdesc">Lean Body Mass is a measure of a person\'s weight without fat</string>
+    <string name="rfmdesc">Relative Fat Mass (RFM) is an index used to estimate body fat percentage based on waist circumference, height, and biological sex</string>
+    <string name="ffmidesc">FFMI is an alternative to body mass index which accounts for a person\'s muscle mass. \n\nNote: this app uses US Navy method.</string>
+    <string name="ccdesc">Calcium Correction calculates a corrected calcium level for patients with hypoalbuminemia</string>
+    <string name="frictiondesc">Friction is the force resisting the relative motion of solid surfaces, fluid layers, and material elements sliding against each other</string>
+    <string name="pressdesc">Pressure is the force applied perpendicular to the surface of an object per unit area over which that force is distributed</string>
+    <string name="accdesc">Acceleration is the rate of change of the velocity of an object with respect to time</string>
+    <string name="dispdesc">Displacement is a vector whose length is the shortest distance from the initial to the final position of a point P undergoing motion</string>
+    <string name="velodesc">Velocity is the directional speed of an object in motion as an indication of its rate of change in position as observed from a particular frame of reference and as measured by a particular standard of time</string>
+    <string name="einsteindesc">Einstein Theory of Relativity is the relationship between mass and energy in a system\'s rest frame, where the two quantities differ only by a multiplicative constant and the units of measurement</string>
+    <string name="lfdesc">Lorentz Factor or Lorentz term is a quantity expressing how much the measurements of time, length, and other physical properties change for an object while that object is moving</string>
+    <string name="molardesc">Molar concentration is a measure of the concentration of a chemical species, in particular of a solute in a solution, in terms of amount of substance per unit volume of solution</string>
+    <string name="machdesc">Mach Number is a dimensionless quantity in fluid dynamics representing the ratio of flow velocity past a boundary to the local speed of sound</string>
+    <string name="paraboladesc">Parabola is a plane curve which is mirror-symmetrical and is approximately U-shaped</string>
+    <string name="kochdesc">The Koch Curve is a fractal curve and one of the earliest fractals to have been described</string>
+    <string name="helixdesc">Helix is a shape like a corkscrew or spiral staircase. It is a type of smooth space curve with tangent lines at a constant angle to a fixed axis</string>
+    <string name="ellipsoiddesc">Ellipsoid is a 3D geometric figure that has an elliptical shape</string>
+    <string name="ssegdesc">Spherical Segment is the solid defined by cutting a sphere or a ball with a pair of parallel planes</string>
+    <string name="scapdesc">Spherical Cap is the region of a sphere which lies above (or below) a given plane</string>
+    <string name="spheredesc">Sphere is a geometrical object that is a three-dimensional analogue to a two-dimensional circle</string>
+    <string name="cydesc">Cylinder is a 3D solid shape that consists of two identical and parallel bases linked by a curved surface</string>
+    <string name="cfrusdesc">Conical Frustum is a frustum created by slicing the top off a cone</string>
+    <string name="conedesc">Cone is a three-dimensional geometric shape that tapers smoothly from a flat base to a point called the apex or vertex</string>
+    <string name="pydesc">Pyramid is a polyhedron formed by connecting a polygonal base and a point, called the apex</string>
+    <string name="pfdesc">Pyramidal Frustum is a frustum made by chopping the top off a pyramid</string>
+    <string name="prismdesc">Prism is a polyhedron comprising an n-sided polygon base, a second base which is a translated copy of the first, and n other faces, necessarily all parallelograms, joining corresponding sides of the two bases</string>
+    <string name="cubedesc">Cube is a three-dimensional solid object bounded by six square faces, facets or sides, with three meeting at each vertex</string>
+    <string name="elldesc">Ellipse is a plane curve surrounding two focal points, such that for all points on the curve, the sum of the two distances to the focal points is a constant</string>
+    <string name="cadesc">The arc of a circle is defined as the part or segment of the circumference of a circle</string>
+    <string name="hexadesc">Hexagon is a six-sided polygon</string>
+    <string name="pentadesc">Pentagon is any five-sided polygon or 5-gon</string>
+    <string name="rhodesc">Rhombus is a quadrilateral whose four sides all have the same length</string>
+    <string name="trapezodesc">Trapezium is a quadrilateral that has at least one pair of parallel sides</string>
+    <string name="squaredesc">Square is a regular quadrilateral, which means that it has four equal sides and four equal angles</string>
+    <string name="rtriangdesc">Right Triangle is a triangle in which one angle is a right angle (that is, a 90-degree angle), i.e., in which two sides are perpendicular</string>
+    <string name="tridesc">Triangle is a polygon with three edges and three vertices</string>
+    <string name="rectdesc">Rectangle is a quadrilateral with four right angles</string>
+    <string name="circdesc">Circle is a closed two-dimensional figure in which the set of all the points in the plane is equidistant from a given point called “center”</string>
+    <string name="coin">Coin</string>
+    <string name="dice">Dice</string>
+    <string name="binominalcoefficient">Binomial Coefficient</string>
+    <string name="gammafunction">Gamma Function</string>
+    <string name="modulo">Modulo</string>
+    <string name="primeoddeven">Prime, Odd, Even</string>
+    <string name="radical">Radical</string>
+    <string name="matrix">Matrix</string>
+    <string name="clockangle">Clock Angle</string>
+    <string name="gcflcm"><![CDATA[GCF & LCM]]></string>
+    <string name="triplem">Median, Mean, Mode</string>
+    <string name="linearequation">Linear Equation</string>
+    <string name="quadrant">Quadrant</string>
+    <string name="piradian">π radian</string>
+    <string name="miliradian">Milliradian</string>
+    <string name="compasspoint">Compass p.</string>
+    <string name="hourangle">Hour a.</string>
+    <string name="arcsec">Arcsecond</string>
+    <string name="arcminute">Arcminute</string>
+    <string name="ratio">Ratio</string>
+    <string name="helix">Helix</string>
+    <string name="kochcurve">Koch Curve</string>
+    <string name="torus">Torus</string>
+    <string name="parabola">Parabola</string>
+    <string name="thermodynamics">Thermodynamics</string>
+    <string name="epowerdesc">Electric power is the rate at which electrical energy is transferred by an electric circuit</string>
+    <string name="heatdesc">Heat capacity or thermal capacity is a physical property of matter, defined as the amount of heat to be supplied to an object to produce a unit change in its temperature</string>
+    <string name="idealgasdesc">The ideal gas law, also called the general gas equation, is the equation of state of a hypothetical ideal gas</string>
+    <string name="amountofsubstance">Amount of substance</string>
+    <string name="voltage">Voltage</string>
+    <string name="electriccurrent">Electric current</string>
+    <string name="powerfactor">Power factor</string>
+    <string name="specificheat">Specific Heat</string>
+    <string name="energyedesc">Energy Efficiency is the ratio of energy output to energy input</string>
+    <string name="input">Input</string>
+    <string name="output">Output</string>
+    <string name="aqdesc">Aquarium is a vivarium of any size having at least one transparent side in which aquatic plants or animals are kept and displayed</string>
+    <string name="somethingismissing">Something is missing, fix it first.</string>
+    <string name="multiply">Multiply (×)</string>
+    <string name="divide">Divide (÷)</string>
+    <string name="eigenvalue">Eigenvalue</string>
+    <string name="inverse">Inverse</string>
+    <string name="transpose">Transpose</string>
+    <string name="determinant">Determinant</string>
+    <string name="rank">Rank</string>
+    <string name="trace">Trace</string>
+    <string name="matrixinstruction">Write the matrix with one of these allowed separators:\n1. comma (,)\n2. comma and space (, )\n3. space ( )\nExample: 1, 2, 3 or 1,2,3 or 1 2 3</string>
+    <string name="back">Back</string>
+    <string name="matrixnonsquareerror">none (no result for non-square matrix)</string>
+    <string name="matrixdifferentsizeerror">none (no result for different size matrices)</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="nonsingularask">Non-singular?</string>
+    <string name="fullrankask">Full rank?</string>
+    <string name="eigenvector">Eigenvector</string>
+    <string name="blockdiagonal">Block diagonal</string>
+    <string name="imaginary">Imaginary parts</string>
+    <string name="realpart">Real parts</string>
+    <string name="singularvalues">Singular values</string>
+    <string name="nosymmetricandpositive">none (the matrix is not symmetric and positive)</string>
+    <string name="permutationvector">Permutation vector</string>
+    <string name="selectplan">Select the plan:</string>
+    <string name="month1">Month</string>
+    <string name="months">Months</string>
+    <string name="iconby">Icons by:</string>
+    <string name="selecttheoption">Select the option</string>
+    <string name="watchads">Watch Ads</string>
+    <string name="enterwithoutads">Enter Without Ads</string>
+    <string name="adsisnotloaded">Ads is not loaded, please wait and try again</string>
+    <string name="labeloptional">Label (optional)</string>
+    <string name="labels">Labels</string>
+    <string name="ialreadypurchased">I already purchased</string>
+    <string name="loadingad">Loading Ads</string>
+    <string name="tryagain">Try Again</string>
+    <string name="premiumanglealert">You need to subscribe to use this angle unit</string>
+    <string name="premiumvectoralert">You need to subscribe to find three dimensional vector</string>
+    <string name="inserthere">Insert here</string>
+    <string name="pleasewait">Please Wait</string>
+    <string name="heatcapacity">Heat Capacity</string>
+    <string name="idealgas">Ideal Gas Law</string>
+    <string name="electricalpower">Electrical Power</string>
+    <string name="energyefficiency">Energy Efficiency</string>
+    <string name="vector">Vector</string>
+    <string name="addition">Add (+)</string>
+    <string name="subtraction">Subtract (-)</string>
+    <string name="crossp">Cross product (≠×≠ - ≠×≠)</string>
+    <string name="scalarp">Scalar product (=×= + =×=)</string>
+    <string name="aquariumtank">Aquarium</string>
+    <string name="Number_to_words">Number-to-words</string>
+    <string name="help">Help</string>
+    <string name="basic_help">If you see multi zeros at the result, it means that your answer is out of system\'s limit. It occurred because Android libraries only support 64-bit calculation. If you need to calculate long numbers, you can go to General Calculations and open Long Basic Calculator.</string>
+    <string name="precision">Precision</string>
+    <string name="arithmetic">Arithmetic</string>
+    <string name="from">From</string>
+    <string name="twentyfourhours">24-hours</string>
+    <string name="select">Select</string>
+    <string name="premiumlongbasicalert">You need to subscribe to find basic math with other functions calculations</string>
+    <string name="first">First</string>
+    <string name="second">Second</string>
+    <string name="versionhistory">Version History</string>
+    <string name="longbasiccalculator">Long Basic Calculator</string>
+    <string name="timezone">Time Zone</string>
+    <string name="combinationpremium">Combination ᴾᴿᴱᴹᴵᵁᴹ</string>
+    <string name="followus">Follow Us:</string>
+    <string name="gender">Gender</string>
+    <string name="type">Type</string>
+    <string name="To">To</string>
+    <string name="save16">Save 16%</string>
+    <string name="noads">Ad-free</string>
+    <string name="moreangleunit">More angle units</string>
+    <string name="findthreedimensionalvector">Find three dimensional vector</string>
+    <string name="labelsoneveryvalue">Labels on every array value</string>
+    <string name="combinationlongbasic">Combination in Long Basic Calculator</string>
+    <string name="supportthedeveloper">Support the developer</string>
+    <string name="numberofmatrices">Number of matrices</string>
+    <string name="dimension">Dimension</string>
+    <string name="difference">Difference</string>
+    <string name="change">Change</string>
+    <string name="increase">Increase</string>
+    <string name="decrease">Decrease</string>
+    <string name="by">By</string>
+    <string name="ofDari">of</string>
+    <string name="additionof">Addition of</string>
+    <string name="subtractionof">Subtraction of</string>
+    <string name="bysmall">by</string>
+    <string name="forcedesc">A force is an influence that can cause an object to change its velocity, i.e., to accelerate, unless counterbalanced by other forces.</string>
+    <string name="bunlong">BUN - blood urea nitrogen</string>
+    <string name="serumcreatinine">Serum creatinine</string>
+    <string name="buncr">BUN Creatinine Ratio</string>
+    <string name="bundesc">Urea-to-creatinine ratio, known in the United States as BUN-to-creatinine ratio, is the ratio of the blood levels of urea and creatinine.\n\nNote: on this app, 1 mg/dL = 0.3571 mmol/L.</string>
+    <string name="aniondesc">The anion gap is a value calculated from the results of multiple individual medical lab tests.</string>
+    <string name="aniongap">Anion Gap</string>
+    <string name="serum">Serum</string>
+    <string name="sodium_s" translatable="false">Sodium (Na⁺)</string>
+    <string name="chloride_s">Chloride (Cl⁻)</string>
+    <string name="bicarbonate_s">Bicarbonate (HCO₃⁻)</string>
+    <string name="potassium_s">Potassium (K⁺)</string>
+    <string name="correctedaniongap">Corrected Anion Gap</string>
+    <string name="irondefdesc">Iron deficiency anemia is the most common cause of anemia worldwide, which results in microcytic and hypochromic red cells on the peripheral smear.</string>
+    <string name="irondeficiency">Iron Deficiency</string>
+    <string name="actualhemoglobin">Actual hemoglobin</string>
+    <string name="targethemoglobin">Target hemoglobin</string>
+    <string name="ironstores">Iron stores</string>
+    <string name="deficit">Deficit</string>
+    <string name="transferrindesc">Transferrin Saturation (TS) is the value of serum iron divided by the total iron-binding capacity of the available transferrin, the main protein that binds iron in the blood, this value tells a clinician how much serum iron is bound.</string>
+    <string name="transferrin_s">Transferrin Saturation</string>
+    <string name="siconc">Serum iron concentration</string>
+    <string name="tibc">Total iron-binding capacity</string>
+    <string name="stc">Serum transferrin concentration</string>
+    <string name="qtcdesc">The QT interval is a measurement made on an electrocardiogram used to assess some of the electrical properties of the heart. The QT interval changes in response to the heart rate - as heart rate increase the QT interval shortens. These changes make it harder to compare QT intervals measured at different heart rates. To account for this, and thereby improve the reliability of QT measurement, the QT interval can be corrected for heart rate (QTc) using a variety of mathematical formulae, a process often performed automatically by modern ECG recorders.</string>
+    <string name="qtc" translatable="false">QTc</string>
+    <string name="millisecond" translatable="false">ms</string>
+    <string name="qtin">QT interval</string>
+    <string name="rrinterval">RR interval</string>
+    <string name="saagdesc">The serum-ascites albumin gradient (SAAG) is a medical value representing the albumin concentration difference between blood serum and the ascitic fluid.</string>
+    <string name="sac">Serum albumin concentration</string>
+    <string name="afac">Ascitic fluid albumin concentration</string>
+    <string name="ldldesc">Low-density lipoproteins is the complex particles that carry lipids in the blood.</string>
+    <string name="totalcholesterol">Total cholesterol</string>
+    <string name="hdl">High-density lipoproteins (HDL)</string>
+    <string name="tgs">Triglycerides (TG)</string>
+    <string name="avogadrodesc">Avogadro\'s number is the number of particles in a mole. Equal to 6.02214076 × 10²³</string>
+    <string name="avogadro">Avogadro\'s Number</string>
+    <string name="atom" translatable="false">atom</string>
+    <string name="numberofatoms">Number of atoms</string>
+    <string name="moles">Moles</string>
+    <string name="raisedto">Raised to</string>
+    <string name="concdesc">Concentration describes the composition of a solution.</string>
+    <string name="density">Density</string>
+    <string name="waterheatingdesc">Water heating is a heat transfer process that uses an energy source to heat water above its initial temperature.</string>
+    <string name="waterheating">Water Heating</string>
+    <string name="amountofwater">Amount of water</string>
+    <string name="starttemperature">Start temperature</string>
+    <string name="endtemperature">End temperature</string>
+    <string name="heatingpower">Heating power</string>
+    <string name="waterboilingerror">Cannot calculate water that already boiled</string>
+    <string name="freqdesc">Frequency is the number of completed wave cycles per second.</string>
+    <string name="frequency">Frequency</string>
+    <string name="wavevelocity">Wave velocity</string>
+    <string name="wavelength">Wavelength</string>
+    <string name="period">Period</string>
+    <string name="insulinresistancedesc">A resistance to the hormone insulin, resulting in increasing blood sugar.</string>
+    <string name="insulinresistance">Insulin Resistance</string>
+    <string name="fastingglucose">Fasting glucose</string>
+    <string name="fastinginsulin">Fasting insulin</string>
+    <string name="ir_d">insulin resistance detected</string>
+    <string name="diabetic">diabetic</string>
+    <string name="objectproperties">Object Properties</string>
+    <string name="allmeasurements">All Measurements</string>
+    <string name="stillinuse">Still in use</string>
+    <string name="cooking">Cooking</string>
+    <string name="loudness">Loudness</string>
+    <string name="milliseconds">milliseconds</string>
+    <string name="plancktime">Planck time</string>
+    <string name="jiffy">jiffy</string>
+    <string name="shake">shake</string>
+    <string name="moment">moment</string>
+    <string name="fortnight">Fortnight</string>
+    <string name="semester">semester</string>
+    <string name="jubilee" translatable="false">jubilee</string>
+    <string name="century">century</string>
+    <string name="millenium" tools:ignore="Typos">millenium</string>
+    <string name="microseconds">microseconds</string>
+    <string name="nanoseconds">nanoseconds</string>
+    <string name="femtoseconds">femtoseconds</string>
+    <string name="zeptoseconds">zeptoseconds</string>
+    <string name="decades">decades</string>
+    <string name="frequentlyused">Frequently used</string>
+    <string name="sextant">Sextant</string>
+    <string name="octant">Octant</string>
+    <string name="torque">Torque</string>
+    <string name="electricity">Electricity</string>
+    <string name="siunits">International System of Units</string>
+    <string name="liter" translatable="false">Liter</string>
+    <string name="milliliter">Milliliter</string>
+    <string name="teaspoon">Teaspoon</string>
+    <string name="tablespoon">Tablespoon</string>
+    <string name="fluidounce">Fluid ounce</string>
+    <string name="gill">Gill</string>
+    <string name="cup">Cup</string>
+    <string name="pint" translatable="false">Pint</string>
+    <string name="quart">Quart</string>
+    <string name="gallon">Gallon</string>
+    <string name="imperialandusc">Imperial and US customary</string>
+    <string name="meter" translatable="false">Meter</string>
+    <string name="centimeter">Centimeter</string>
+    <string name="kilometer" translatable="false">Kilometer</string>
+    <string name="decameter">Decameter</string>
+    <string name="decimeter">Decimeter</string>
+    <string name="millimeter">Millimeter</string>
+    <string name="micrometer">Micrometer</string>
+    <string name="nanometer" translatable="false">Nanometer</string>
+    <string name="foot">Foot</string>
+    <string name="inch">Inch</string>
+    <string name="mil">Mil</string>
+    <string name="yard">Yard</string>
+    <string name="mile">Mile</string>
+    <string name="league">League</string>
+    <string name="scandinavianmil">Scandinavian mile</string>
+    <string name="xunit">X unit</string>
+    <string name="fathom">Fathom</string>
+    <string name="nauticalmile">Nautical mile</string>
+    <string name="chain">Chain</string>
+    <string name="rod">Rod</string>
+    <string name="earthradius">Earth radius</string>
+    <string name="astronomicalunit">Astronomical unit</string>
+    <string name="lightyear">Light year</string>
+    <string name="furlong" translatable="false">Furlong</string>
+    <string name="squaremeter">Square meter</string>
+    <string name="areunit">Are</string>
+    <string name="hectare">Hectare</string>
+    <string name="acre">Acre</string>
+    <string name="barn">Barn</string>
+    <string name="squarecentimeter">Square centimeter</string>
+    <string name="squarekilometer">Square kilometer</string>
+    <string name="squaredecameter">Square decameter</string>
+    <string name="squaredecimeter">Square decimeter</string>
+    <string name="squarefoot">Square foot</string>
+    <string name="squareinch">Square inch</string>
+    <string name="squaremil">Square mil</string>
+    <string name="squareyard">Square yard</string>
+    <string name="squaremile">Square mile</string>
+    <string name="hoppus">Hoppus cube</string>
+    <string name="boardfoot">Board foot</string>
+    <string name="cordfoot">Cord foot</string>
+    <string name="cubicmeter">Cubic meter</string>
+    <string name="cubiccentimeter">Cubic centimeter</string>
+    <string name="cubickilometer">Cubic kilometer</string>
+    <string name="cubicdecameter">Cubic decameter</string>
+    <string name="cubicdecimeter">Cubic decimeter</string>
+    <string name="cubicfoot">Cubic foot</string>
+    <string name="cubicinch">Cubic inch</string>
+    <string name="cubicmil">Cubic mil</string>
+    <string name="cubicyard">Cubic yard</string>
+    <string name="barrel">Barrel</string>
+    <string name="ergpergram" translatable="false">Erg per gram</string>
+    <string name="absorbeddose">Absorbed Dose</string>
+    <string name="magnet" translatable="false">Magnet</string>
+    <string name="kilopond" translatable="false">Kilopond</string>
+    <string name="poundofforce">Pound of force</string>
+    <string name="poundal" translatable="false">Poundal</string>
+    <string name="tonne_force">Tonne-force</string>
+    <string name="newtoncentimeter">Newton-centimeter</string>
+    <string name="newtonmillimeter">Newton-millimeter</string>
+    <string name="poundforcefoot">Pound-force foot</string>
+    <string name="poundforceinch">Pound-force inch</string>
+    <string name="ounceforceinch">Ounce-force inch</string>
+    <string name="meterpersecond">Meter per second</string>
+    <string name="kilometerperhour">Kilometer per hour</string>
+    <string name="milesperhour">Miles per hour</string>
+    <string name="knot">Knot</string>
+    <string name="feetpersecond">Feet per second</string>
+    <string name="horsepower_mechanical">Horsepower (mechanical)</string>
+    <string name="horsepower_metric">Horsepower (metric)</string>
+    <string name="horsepower_electrical">Horsepower (electrical)</string>
+    <string name="horsepower_boiler">Horsepower (boiler)</string>
+    <string name="horsepower_hydraulic">Horsepower (hydraulic)</string>
+    <string name="horsepower_air">Horsepower (air)</string>
+    <string name="ergspersecond">Ergs per second</string>
+    <string name="foot_pound_sec">Foot pound per second</string>
+    <string name="foot_pound_minute">Foot pound per minute</string>
+    <string name="caloriesperhour">Calories per hour</string>
+    <string name="btuperhour">BTU per hour</string>
+    <string name="tonof_r">Ton of refrigeration</string>
+    <string name="britishthermalunit">British Thermal Unit</string>
+    <string name="foot_pound">Foot-pound</string>
+    <string name="calorie">Calorie</string>
+    <string name="kilowatthour">Kilowatt-hour</string>
+    <string name="kilocalorie">Kilocalories</string>
+    <string name="mechanics">Mechanics</string>
+    <string name="datastorage">Data Storage</string>
+    <string name="smallcalorie">Small calorie</string>
+    <string name="grandcalorie">Grand calorie</string>
+    <string name="milligram">Milligram</string>
+    <string name="tonne">Ton (metric)</string>
+    <string name="shortton">Short ton</string>
+    <string name="longton">Long ton</string>
+    <string name="pound">Pound</string>
+    <string name="ounce">Ounce</string>
+    <string name="carat">Carat</string>
+    <string name="ushundredweight">US hundredweight</string>
+    <string name="longhundredweight">Long hundredweight</string>
+    <string name="grain">Grain</string>
+    <string name="pennyweight" translatable="false">Pennyweight</string>
+    <string name="troyounce">Troy ounce</string>
+    <string name="troypound">Troy pound</string>
+    <string name="stone" translatable="false">Stone</string>
+    <string name="dram" translatable="false">Dram</string>
+    <string name="slug" translatable="false">Slug</string>
+    <string name="quintal">Quintal</string>
+    <string name="planckmass">Planck mass</string>
+    <string name="earthmass">Earth mass</string>
+    <string name="microgram">Microgram</string>
+    <string name="nanogram" translatable="false">Nanogram</string>
+    <string name="dessertspoon">Desertspoon</string>
+    <string name="lumenpersquareinch">Lumen per square inch</string>
+    <string name="footcandle">Foot-candle</string>
+    <string name="squaredegree">Square degree</string>
+    <string name="candelapersqm">Candela per square meter</string>
+    <string name="candelapersqin">Candela per square inch</string>
+    <string name="candelapersqft">Candela per square foot</string>
+    <string name="footlambert">Foot-lambert</string>
+    <string name="millicoulomb">Millicoulomb</string>
+    <string name="microcoulomb">Microcoulomb</string>
+    <string name="picocoulomb">Picocoulomb</string>
+    <string name="atomicunit">Atomic unit</string>
+    <string name="milliamperehour">Milliampere-hour</string>
+    <string name="sqmps">Square meter per second</string>
+    <string name="sqfps">Square foot per second</string>
+    <string name="centistokes">Centistokes</string>
+    <string name="pascalsec">Pascal second</string>
+    <string name="centipoise">Centipoise</string>
+    <string name="poundperfoothour">Pound per foot hour</string>
+    <string name="poundperfootsec">Pound per foot second</string>
+    <string name="lbfssqft">Pound-force second per square foot</string>
+    <string name="lbfssqin">Pound-force second per square inch</string>
+    <string name="m3ps">cubic metre per second</string>
+    <string name="cm3pm">Cubic centimeters per minute</string>
+    <string name="bushelpermin">Bushels per minute</string>
+    <string name="acrefeetperday">Acre-feet per day</string>
+    <string name="cfm">Cubic foot per minute</string>
+    <string name="cfs">Cubic foot per second</string>
+    <string name="cim">Cubic inch per minute</string>
+    <string name="cis">Cubic inch per second</string>
+    <string name="gpdus">Gallon per day (US)</string>
+    <string name="gphus">Gallon per hour (US)</string>
+    <string name="gpmus">Gallon per minute (US)</string>
+    <string name="milegallonus">Miles per gallon (US)</string>
+    <string name="milegallonuk">Miles per gallon (UK)</string>
+    <string name="kgperm3">Kilogram per cubic meter</string>
+    <string name="gpml">Gram per milliliter</string>
+    <string name="gpcm3">Gram per cubic centimeter</string>
+    <string name="ozperft3">Ounce (avoirdupois) per cubic foot</string>
+    <string name="ozperin3">Ounce (avoirdupois) per cubic inch</string>
+    <string name="ozpergalus">Ounce (avoirdupois) per gallon (US)</string>
+    <string name="lbperft3">Pound (avoirdupois) per cubic foot</string>
+    <string name="lbperin3">Pound (avoirdupois) per cubic inch</string>
+    <string name="lbpergalus">Pound (avoirdupois) per gallon (US)</string>
+    <string name="slugperft3">Slug per cubic foot</string>
+    <string name="earthdensity">Earth density</string>
+    <string name="bondorderdesc">Bond order is a formal measure of the multiplicity of a covalent bond between two atoms.</string>
+    <string name="bondorder">Bond Order</string>
+    <string name="bondingelectrons">Bonding electrons</string>
+    <string name="antibondingelectrons">Antibonding electrons</string>
+    <string name="neutralizationdesc">Neutralization or neutralisation is a chemical reaction in which acid and a base react with an equivalent quantity of each other. The result of this reaction is the formation of a salt.</string>
+    <string name="weightofsolute">Weight of solute</string>
+    <string name="volumeofsolvent">Volume of solvent</string>
+    <string name="equivalentweight">Equivalent weight</string>
+    <string name="neutralization">Neutralization</string>
+    <string name="cofunctiondesc">Cofunction is a trigonometric function whose value for the complement of an angle is equal to the value of a given trigonometric function of the angle itself.</string>
+    <string name="cofunction">Cofunction</string>
+    <string name="getpremium">Get Premium</string>
+    <string name="hexadecimal">Hexadecimal</string>
+    <string name="octal">Octal</string>
+    <string name="binary">Binary</string>
+    <string name="ternary">Ternary</string>
+    <string name="quinary">Quinary</string>
+    <string name="septenary">Septenary</string>
+    <string name="undecimal">Undecimal</string>
+    <string name="duodecimal">Duodecimal</string>
+    <string name="kinematicviscosity">Kinematic Viscosity</string>
+    <string name="dynamicviscosity">Dynamic Viscosity</string>
+    <string name="flow">Flow</string>
+    <string name="fuelconsumption">Fuel Consumption</string>
+    <string name="potential">Potential</string>
+    <string name="charge">Charge</string>
+    <string name="current">Current</string>
+    <string name="dipolemoment">Dipole Moment</string>
+    <string name="visual">Visual</string>
+    <string name="luminance">Luminance</string>
+    <string name="illumination">Illuminance</string>
+    <string name="solidangle">Solid Angle</string>
+    <string name="fluids">Fluids</string>
+    <string name="literperminute">Liter per minute</string>
+    <string name="error" translatable="false">Error</string>
+</resources>
