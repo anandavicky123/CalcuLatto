@@ -1,21 +1,171 @@
-MIT License
+# Source Available License
 
-Copyright (c) 2025 Ananda Vicky
+Copyright (c) 2025 Ananda Vicky (Syncertica)  
+All Rights Reserved.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+## 1. DEFINITIONS
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+1.1 "Software" refers to the source code, object code, documentation, configuration files, and any associated materials included in this repository.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+1.2 "Licensor" refers to Ananda Vicky, also known as Syncertica, the copyright holder of this Software.
+
+1.3 "You" or "Your" refers to any individual or legal entity exercising permissions under this License.
+
+1.4 "Identities" refers to all application names, brand names, logos, trademarks, trade dress, service marks, product names, and any other identifying materials associated with the Software, including but not limited to the developer name "Syncertica" and any application-specific branding.
+
+1.5 "Modify" means to copy from or adapt all or part of the Software in a fashion requiring copyright permission, other than the making of an exact copy.
+
+## 2. GRANT OF RIGHTS
+
+Subject to the terms and conditions of this License, the Licensor hereby grants You a limited, non-exclusive, non-transferable, non-sublicensable, revocable, worldwide right to:
+
+2.1 **Install** the Software on Your personal devices for testing and evaluation purposes only.
+
+2.2 **View** the source code of the Software for educational, portfolio review, and personal learning purposes.
+
+2.3 **Modify** the source code of the Software solely for Your own personal testing, experimentation, and learning purposes.
+
+2.4 **Test** the Software and any modifications You make to it on Your personal devices for non-commercial evaluation purposes only.
+
+## 3. RESTRICTIONS AND PROHIBITIONS
+
+You are expressly prohibited from, and do NOT have permission to:
+
+3.1 **Use, reproduce, or display the Identities** of the Software, including but not limited to application names, logos, branding, or the developer name "Syncertica" in any manner whatsoever, whether commercial or non-commercial.
+
+3.2 **Distribute, publish, or make available** the Software or any portion thereof, whether modified or unmodified, to any third party through any means, including but not limited to public repositories, file sharing services, app stores, websites, or physical media.
+
+3.3 **Sell, license, lease, rent, or otherwise commercialize** the Software or any derivative works, in whole or in part.
+
+3.4 **Use the Software for any commercial purpose**, including but not limited to:
+   - Incorporating the Software into commercial products or services
+   - Using the Software to provide services to third parties
+   - Using the Software in any revenue-generating activity
+   - Deploying the Software in production environments
+
+3.5 **Create derivative works** intended for distribution, sale, or public use.
+
+3.6 **Sublicense, transfer, or assign** any rights granted under this License to any third party.
+
+3.7 **Remove, alter, or obscure** any copyright notices, attribution, or proprietary notices contained in the Software.
+
+3.8 **Reverse engineer, decompile, or disassemble** any compiled portions of the Software, except to the extent such restriction is prohibited by applicable law.
+
+3.9 **Use the Software in any manner** that violates any applicable local, state, national, or international law or regulation.
+
+3.10 **Register, claim, or apply for any intellectual property rights** related to the Software, including but not limited to trademarks, patents, or copyrights based on or derived from the Software.
+
+3.11 **Perform any action** not explicitly permitted in Section 2 without obtaining prior written permission from the Licensor.
+
+## 4. INTELLECTUAL PROPERTY RIGHTS
+
+4.1 The Licensor retains all right, title, and interest in and to the Software, including all copyrights, patents, trade secrets, trademarks, and other intellectual property rights.
+
+4.2 All Identities associated with the Software are the exclusive property of the Licensor and are protected by copyright, trademark, and other intellectual property laws.
+
+4.3 No rights or licenses are granted except as expressly set forth in Section 2 of this License.
+
+4.4 Any modifications You make to the Software do not grant You any ownership rights in the original Software or its Identities.
+
+## 5. ATTRIBUTION
+
+5.1 If You are granted explicit written permission by the Licensor to share modified versions or derivative works, You must:
+   - Retain all copyright notices and attributions from the original Software
+   - Clearly indicate that the work is modified from the original
+   - Include a prominent notice stating that the original Software is created by Ananda Vicky (Syncertica)
+   - Not use the original Identities without separate written permission
+
+## 6. THIRD-PARTY DEPENDENCIES
+
+6.1 This Software uses third-party libraries, frameworks, and services, each of which is subject to its own separate license terms.
+
+6.2 Each third-party dependency retains its original license, and Your use of those dependencies is governed by their respective licenses.
+
+6.3 The Licensor makes no representations or warranties regarding third-party dependencies and assumes no liability for Your use of such dependencies.
+
+6.4 You are responsible for complying with all license terms and conditions of any third-party dependencies included in or used by the Software.
+
+6.5 A list of dependencies can be found in the Software's configuration files (e.g., package.json, build.gradle, pom.xml, or similar files).
+
+## 7. REQUESTING ADDITIONAL PERMISSIONS
+
+7.1 Any use of the Software beyond the rights explicitly granted in Section 2 requires prior written permission from the Licensor.
+
+7.2 To request additional permissions, You must contact the Licensor at: anandavikisns@gmail.com
+
+7.3 The Licensor reserves the right to grant or deny permission requests at their sole discretion.
+
+7.4 Any permissions granted will be documented in writing and will specify the scope and terms of the additional rights granted.
+
+## 8. TERMINATION
+
+8.1 This License is effective until terminated.
+
+8.2 Your rights under this License will terminate automatically and immediately without notice from the Licensor if You fail to comply with any term or condition of this License.
+
+8.3 The Licensor reserves the right to terminate this License at any time for any reason by providing notice to You.
+
+8.4 Upon termination, You must immediately:
+   - Cease all use of the Software
+   - Destroy all copies of the Software in Your possession or control
+   - Delete any modifications or derivative works You have created
+
+8.5 Sections 4, 9, 10, and 11 shall survive any termination of this License.
+
+## 9. DISCLAIMER OF WARRANTY
+
+**THE SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT.**
+
+**THE LICENSOR DOES NOT WARRANT THAT:**
+- **THE SOFTWARE WILL MEET YOUR REQUIREMENTS**
+- **THE SOFTWARE WILL BE UNINTERRUPTED, TIMELY, SECURE, OR ERROR-FREE**
+- **THE RESULTS OBTAINED FROM THE USE OF THE SOFTWARE WILL BE ACCURATE OR RELIABLE**
+- **ANY ERRORS IN THE SOFTWARE WILL BE CORRECTED**
+
+**YOU ASSUME ALL RESPONSIBILITY AND RISK FOR YOUR USE OF THE SOFTWARE AND ANY RESULTS OBTAINED FROM ITS USE.**
+
+## 10. LIMITATION OF LIABILITY
+
+**TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE LICENSOR BE LIABLE FOR ANY SPECIAL, INCIDENTAL, INDIRECT, CONSEQUENTIAL, PUNITIVE, OR EXEMPLARY DAMAGES WHATSOEVER (INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF BUSINESS PROFITS, BUSINESS INTERRUPTION, LOSS OF BUSINESS INFORMATION, LOSS OF DATA, COMPUTER FAILURE OR MALFUNCTION, OR ANY OTHER COMMERCIAL DAMAGES OR LOSSES) ARISING OUT OF OR RELATED TO:**
+- **YOUR USE OR INABILITY TO USE THE SOFTWARE**
+- **ANY MODIFICATIONS YOU MAKE TO THE SOFTWARE**
+- **ANY THIRD-PARTY DEPENDENCIES OR SERVICES USED BY THE SOFTWARE**
+- **ANY BREACH OF THIS LICENSE**
+
+**THIS LIMITATION APPLIES EVEN IF THE LICENSOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.**
+
+**IN NO EVENT SHALL THE LICENSOR'S TOTAL LIABILITY TO YOU FOR ALL DAMAGES, LOSSES, AND CAUSES OF ACTION (WHETHER IN CONTRACT, TORT, INCLUDING NEGLIGENCE, OR OTHERWISE) EXCEED ZERO DOLLARS ($0.00).**
+
+**SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR LIMITATION OF INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO THE ABOVE LIMITATIONS OR EXCLUSIONS MAY NOT APPLY TO YOU.**
+
+## 11. INDEMNIFICATION
+
+You agree to indemnify, defend, and hold harmless the Licensor from and against any and all claims, liabilities, damages, losses, costs, expenses, or fees (including reasonable attorneys' fees) arising from:
+- Your use or misuse of the Software
+- Your violation of this License
+- Your violation of any rights of another party
+- Your modifications to the Software
+
+## 12. GENERAL PROVISIONS
+
+12.1 **Entire Agreement**: This License constitutes the entire agreement between You and the Licensor concerning the Software and supersedes all prior or contemporaneous agreements, understandings, and communications.
+
+12.2 **Severability**: If any provision of this License is found to be unenforceable or invalid, that provision shall be limited or eliminated to the minimum extent necessary so that this License shall otherwise remain in full force and effect.
+
+12.3 **No Waiver**: The failure of the Licensor to exercise or enforce any right or provision of this License shall not constitute a waiver of such right or provision.
+
+12.4 **Governing Law**: This License shall be governed by and construed in accordance with the laws of the jurisdiction in which the Licensor resides, without regard to its conflict of law provisions.
+
+12.5 **Assignment**: You may not assign or transfer this License or any rights granted hereunder, in whole or in part, without the prior written consent of the Licensor. Any attempted assignment in violation of this provision shall be void.
+
+12.6 **Modifications to License**: The Licensor reserves the right to modify this License at any time. Continued use of the Software after modifications constitutes acceptance of the modified License.
+
+12.7 **Contact**: For questions about this License or to request permissions, contact:
+   - **Name**: Ananda Vicky (Syncertica)
+   - **Email**: anandavikisns@gmail.com
+
+---
+
+**BY INSTALLING, VIEWING, MODIFYING, TESTING, OR OTHERWISE ACCESSING THE SOFTWARE, YOU ACKNOWLEDGE THAT YOU HAVE READ THIS LICENSE, UNDERSTAND IT, AND AGREE TO BE BOUND BY ITS TERMS AND CONDITIONS.**
+
+**IF YOU DO NOT AGREE TO THE TERMS OF THIS LICENSE, DO NOT INSTALL, VIEW, MODIFY, TEST, OR ACCESS THE SOFTWARE IN ANY MANNER.**
