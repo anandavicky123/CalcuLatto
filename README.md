@@ -238,10 +238,5 @@ Please follow conventional code style and keep the APK size impact minimal.
 
 ---
 
-## 📄 License
-Add your chosen license here (e.g., MIT, Apache-2.0, or proprietary). If unspecified, all rights reserved by the author.
-
----
-
 ## ⚠️ Disclaimer
 DISCLAIMER: Syncertica makes no warranty and expressly disclaims all warranties as to the accuracy or reliability or suitability of any calculation results or information provided through its products. Syncertica is also not responsible for any damages, direct or indirect, which may occur by the calculation results or information provided through the products.
