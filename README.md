@@ -23,7 +23,6 @@ CalcuLatto is a compact, powerful calculator app for Android built with Java. It
 - 📥 Install
 - 🛠️ Build From Source
 - 🤝 Contributing
-- 🗺️ Roadmap
 - 🆘 Support
 - 📄 License
 - ⚠️ Disclaimer
