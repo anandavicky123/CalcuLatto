@@ -223,15 +223,6 @@ Please follow conventional code style and keep the APK size impact minimal.
 
 ---
 
-## 🗺️ Roadmap
-- ➕ More domain calculators and presets
-- 🧑‍🦽 UX refinements and accessibility improvements
-- 🌍 Additional unit systems and localization
-- 📤 Export/share calculation steps
-- 🎨 Themes and customization
-
----
-
 ## 🆘 Support
 - 🐞 Issues and feedback: Use the repository’s Issues tab or the in-app feedback link (if available).
 - 💬 For subscription or billing inquiries, manage your purchase via Google Play or contact support with your order ID.
